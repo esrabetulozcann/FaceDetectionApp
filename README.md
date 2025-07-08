@@ -4,13 +4,130 @@ A new Flutter project.
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+# Face Detection App
 
-A few resources to get you started if this is your first Flutter project:
+This is an AI-powered mobile application that detects facial skin issues (such as acne, blackheads, scars) and provides skincare recommendations accordingly.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## Features
+- Detects facial skin issues using YOLOv8-based CNN model.
+- Provides personalized skincare suggestions.
+- User-friendly interface with Flutter.
+- Backend API with .NET Entity Framework (Data First approach).
+- Real-time camera capture and analysis.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Tech Stack
+- Python, YOLOv8, TensorFlow
+- .NET Core, Entity Framework
+- Flutter
+- Git, GitHub Actions (if applicable)
+
+## Dataset & Model Training
+- Custom dataset with 5,000+ images prepared and annotated.
+- Split into 70% train, 20% test, 10% validation.
+- Trained with YOLOv8 CNN model, achieving high accuracy.
+
+## API Development
+- Developed using .NET Core with Entity Framework.
+- Integrated the trained model with API endpoints for real-time prediction.
+
+## Flutter Frontend
+- Clean and user-friendly UI with Flutter.
+- Integrated with the API for real-time analysis and recommendations.
+
+## Screenshots
+![login_screen](https://github.com/user-attachments/assets/6d82c4a2-a852-4d85-816a-69328df8d9fd)
+*Login screen where users can enter credentials to access the app.*
+
+![register_screen](https://github.com/user-attachments/assets/e4102ee0-ce60-47f5-8a07-0dc4a64f2742)
+*Register screen for new users to create an account.*
+
+![face_analysis_screen](https://github.com/user-attachments/assets/489c50ff-3d78-40da-9811-1e2bb1502a38)
+*Face analysis screen where the user sees the image being processed in real-time.*
+
+![face_analysis_result_screen](https://github.com/user-attachments/assets/c6d3f6b6-0c12-40ac-adc2-65e2ec62c714)
+*Detailed result screen highlighting problem areas on the face.*
+
+![care_recommendation_screen](https://github.com/user-attachments/assets/a4bb895a-e4d5-4892-8578-61773b2292a3)
+*Page showing personalized skincare product and routine recommendations.*
+
+![saved_analyses](https://github.com/user-attachments/assets/fe9610ed-4f21-4df9-bf16-50e8277e2024)
+*History screen where users can view their past skin analysis records.*
+
+![profile_screen](https://github.com/user-attachments/assets/195c18c2-ffa2-48e1-a776-58055195dd73)
+*User profile page with personal details and app settings.*
+
+![update_profile](https://github.com/user-attachments/assets/41abb805-297b-4919-a8cd-e2cf2bc17453)
+*Page for updating user information like name, email, and password.*
+
+
+## Installation
+_Coming Soon_ (or write instructions if you want others to test).
+
+
+## Contact
+For questions or collaborations: esrabettt@gmail.com
+
+
+
+
+
+
+## Türkçe Açıklama
+
+Bu proje, yüzdeki cilt kusurlarını (akne, siyah nokta, iz vb.) tespit ederek kullanıcıya bakım önerileri sunan yapay zekâ destekli bir mobil uygulamadır.
+
+### Özellikler
+- YOLOv8 tabanlı CNN modeli ile cilt kusurlarını tespit eder.
+- Kişiye özel bakım önerileri sunar.
+- Flutter ile kullanıcı dostu arayüz.
+- .NET Entity Framework ile API geliştirme.
+- Gerçek zamanlı analiz imkanı.
+
+### Kullanılan Teknolojiler
+- Python, YOLOv8, TensorFlow
+- .NET Core, Entity Framework
+- Flutter
+- Git, GitHub
+
+### Veri Seti ve Model Eğitimi
+- 5.000+ görsel içeren veri seti hazırlandı ve etiketlendi.
+- %70 eğitim, %20 test, %10 doğrulama olarak ayrıldı.
+- YOLOv8 ile yüksek doğrulukta model eğitildi.
+
+### API Geliştirme
+- .NET Core ve Entity Framework ile API geliştirildi.
+- Eğitilen model API ile entegre edildi.
+
+### Flutter Arayüz
+- Temiz ve kullanışlı tasarım.
+- API entegrasyonu ile gerçek zamanlı analiz ve öneriler.
+
+### Ekran Görüntüleri
+![login_screen](https://github.com/user-attachments/assets/6d82c4a2-a852-4d85-816a-69328df8d9fd)
+*Kullanıcının giriş yapabildiği başlangıç ekranı.*
+
+![register_screen](https://github.com/user-attachments/assets/e4102ee0-ce60-47f5-8a07-0dc4a64f2742)
+*Yeni kullanıcıların kayıt olabildiği ekran.*
+
+![face_analysis_screen](https://github.com/user-attachments/assets/489c50ff-3d78-40da-9811-1e2bb1502a38)
+*Gerçek zamanlı olarak cilt analizi yapılan ekran.*
+
+![face_analysis_result_screen](https://github.com/user-attachments/assets/c6d3f6b6-0c12-40ac-adc2-65e2ec62c714)
+*Yüzde tespit edilen problemleri detaylı gösteren ekran.*
+
+![care_recommendation_screen](https://github.com/user-attachments/assets/a4bb895a-e4d5-4892-8578-61773b2292a3)
+*Kişiye özel ürün ve cilt bakım önerilerinin listelendiği ekran.*
+
+![saved_analyses](https://github.com/user-attachments/assets/fe9610ed-4f21-4df9-bf16-50e8277e2024)
+*Önceki analizlerin listelendiği geçmiş kayıtlar ekranı.*
+
+![profile_screen](https://github.com/user-attachments/assets/195c18c2-ffa2-48e1-a776-58055195dd73)
+*Kullanıcının kişisel bilgilerini ve ayarlarını görebildiği ekran.*
+
+![update_profile](https://github.com/user-attachments/assets/41abb805-297b-4919-a8cd-e2cf2bc17453)
+*Kullanıcının ad, e-posta ve şifre gibi bilgilerini güncelleyebildiği ekran.*
+
+
+### İletişim
+Sorular ve iş birlikleri için: esrabettt@gmail.com
+
