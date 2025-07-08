@@ -6,7 +6,10 @@ A new Flutter project.
 
 # Face Detection App
 
-This is an AI-powered mobile application that detects facial skin issues (such as acne, blackheads, scars) and provides skincare recommendations accordingly.
+AI-Powered Skin Analysis: An Intelligent Mobile Application for Defect Detection and Skincare Recommendations.
+In this project, a YOLOv8 CNN-based model was trained using over 5,000 data samples.
+The trained model was integrated into an API developed using .NET and Entity Framework.
+The mobile application was built with Flutter and connected to the backend API.
 
 ## Features
 - Detects facial skin issues using YOLOv8-based CNN model.
@@ -74,7 +77,10 @@ For questions or collaborations: esrabettt@gmail.com
 
 ## Türkçe Açıklama
 
-Bu proje, yüzdeki cilt kusurlarını (akne, siyah nokta, iz vb.) tespit ederek kullanıcıya bakım önerileri sunan yapay zekâ destekli bir mobil uygulamadır.
+Yapay Zeka Destekli Cilt Analizi: Kusur Tespiti ve Öneri Sunan Akıllı Mobil Uygulama.
+Bu projede 5.000'den fazla veri seti ile CNN tabanlı YOLOv8 modeli kullanılarak eğitim gerçekleştirildi.
+Eğitilen model bir API'ye entegre edildi. API, .NET ve Entity Framework kullanılarak geliştirildi.
+Mobil taraf Flutter ile geliştirildi ve API ile entegre edildi.
 
 ### Özellikler
 - YOLOv8 tabanlı CNN modeli ile cilt kusurlarını tespit eder.
